@@ -5,7 +5,22 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+				"C:/Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/StarterContent/Materials/M_AssetPlatform.uasset",
+				"C:/Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/StarterContent/Maps/Minimal_Default.umap",
+				"C:/Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/Maps/SlashOpenWorld_HLODLayer_Instanced.uasset",
+				"C:/Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/Maps/SlashOpenWorld_HLODLayer_Merged.uasset",
+				"C:/Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/__ExternalActors__/Maps/SlashOpenWorld/F/50/E32K80QIJKA33SEH12OVJX.uasset",
+				"C:/Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/__ExternalActors__/Maps/SlashOpenWorld/B/I5/VIHS66XM2888W25P6863YV.uasset",
+				"C:/Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/Maps/SlashOpenWorld.umap",
+				"C:/Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset",
+				"C:/Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/StarterContent/Materials/M_Ground_Moss.uasset",
+				"C:/Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset",
+				"C:/Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/__ExternalActors__/Maps/SlashOpenWorld/7/IS/791VYX903G4FDTYNSEGSIR.uasset",
+				"C:/Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/__ExternalActors__/Maps/SlashOpenWorld/E/ZF/5GH42GVI6YFVGBZKV1MQW2.uasset",
+				"C:/Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/__ExternalActors__/Maps/SlashOpenWorld/1/OS/A76KM8TMNNIJ7KOO48LA8Z.uasset",
+				"C:/Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/__ExternalActors__/Maps/SlashOpenWorld/B/DE/DX277HK3OH93VHVU1T5VP7.uasset",
+				"C:/Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/__ExternalActors__/Maps/SlashOpenWorld/5/3C/NOSTH3Y4H1MWASR4YFAK2T.uasset",
+				"C:/Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/__ExternalActors__/Maps/SlashOpenWorld/4/3I/VGEZPHQE98XD63XG7CZELA.uasset"
 			]
 		}
 	]

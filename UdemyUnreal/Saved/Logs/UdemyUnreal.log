@@ -1608,3 +1608,601 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.09.22-14.33.35:367][232]LogMaterial: Display: Material /Game/StarterContent/Materials/M_Ground_Moss.M_Ground_Moss needed to have new flag set bUsedWithNanite !
 [2023.09.22-14.33.39:267][653]LogMaterial: Display: Material /Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.M_Tech_Hex_Tile_Pulse needed to have new flag set bUsedWithNanite !
 [2023.09.22-14.33.50:610][416]LogDerivedDataCache: C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.031 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 639 files in 1120 folders with total size 18 MiB.
+[2023.09.22-14.36.49:953][954]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=VG245 (NVIDIA High Definition Audio), InstanceID=1
+[2023.09.22-14.36.50:126][954]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=32272
+[2023.09.22-14.36.50:175][955]LogAudioMixer: Error: XAudio2System->CreateMasteringVoice() -> 0x88890008: AUDCLNT_E_UNSUPPORTED_FORMAT (line: 345) with Args (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{dbea0fd9-f51a-44ae-9f00-71ddb1247ffe} Name=VG245 (NVIDIA High Definition Audio))
+[2023.09.22-14.36.50:259][955]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Realtek Digital Output (Realtek(R) Audio), InstanceID=1
+[2023.09.22-14.36.51:117][957]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{d1a95dc6-1903-45e3-a57d-ef089ba3e715}, Name=Realtek Digital Output (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=9.66
+[2023.09.22-14.36.51:118][957]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.22-14.36.51:119][957]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.22-14.36.59:492][970]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.09.22-17.27.11:504][970]LogHttp: Warning: 00000BB87A77A500: HTTP request timed out after 10216.78 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFA7F061F-479D-87D9-A2B0-62A858127049%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.0-27405482%2B%2B%2BUE5%2BRelease-5.3&UserID=d2089744435ef00535897893d427361e%7Cef24c47cfe6e44c585ac57e319c6650a%7Cc1408451-fe1b-4f81-983e-1f21f8105742&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.09.22-17.27.12:334][970]LogHttp: Warning: 00000BB87A77A500: request failed, libcurl error: 0 (No error)
+[2023.09.22-17.27.12:334][970]LogHttp: Warning: 00000BB87A77A500: libcurl info message cache 0 (Found bundle for host: 0xbb805970000 [serially])
+[2023.09.22-17.27.12:334][970]LogHttp: Warning: 00000BB87A77A500: libcurl info message cache 1 (Re-using existing connection #0 with host datarouter.ol.epicgames.com)
+[2023.09.22-17.27.12:334][970]LogHttp: Warning: 00000BB87A77A500: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (18.205.164.1) port 443 (#0))
+[2023.09.22-17.27.12:334][970]LogHttp: Warning: 00000BB87A77A500: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.09.22-17.27.12:334][970]LogHttp: Warning: 00000BB87A77A500: libcurl info message cache 4 (Closing connection 0)
+[2023.09.22-17.27.12:334][970]LogHttp: Warning: 00000BB87A77A500: libcurl info message cache 5 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2023.09.22-17.27.12:334][970]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFA7F061F-479D-87D9-A2B0-62A858127049%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.0-27405482%2B%2B%2BUE5%2BRelease-5.3&UserID=d2089744435ef00535897893d427361e%7Cef24c47cfe6e44c585ac57e319c6650a%7Cc1408451-fe1b-4f81-983e-1f21f8105742&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.09.22-17.27.13:550][970]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=32272
+[2023.09.22-17.27.13:760][972]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=VG245 (NVIDIA High Definition Audio), InstanceID=1
+[2023.09.22-17.27.13:893][972]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{d1a95dc6-1903-45e3-a57d-ef089ba3e715}, Name=Realtek Digital Output (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=45.00
+[2023.09.22-17.27.13:893][972]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.22-17.27.13:894][972]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.22-17.27.14:223][973]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=VX2452 Series (3- HD Audio Driver for Display Audio), InstanceID=1
+[2023.09.22-17.27.14:225][973]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=32272
+[2023.09.22-17.27.14:560][974]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{7bf591c4-e6be-42ef-a063-f8dcaa9345cc}, Name=VX2452 Series (3- HD Audio Driver for Display Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=40.77
+[2023.09.22-17.27.14:560][974]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.22-17.27.14:561][974]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.22-17.27.22:618][998]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.09.22-17.27.22:644][998]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1
+[2023.09.22-17.27.22:644][998]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/Minimal_Default_Auto150E6ACE7420BF16DBB81C8AB1AAAAE75.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2023.09.22-17.27.22:645][998]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap is in the /Temp path, will not scan.
+[2023.09.22-17.27.22:645][998]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1 is in the /Temp path, will not scan.
+[2023.09.22-17.27.22:645][998]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1 is in the /Temp path, will not scan.
+[2023.09.22-17.27.22:645][998]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StarterContent/Maps/Minimal_Default' took 0.029
+[2023.09.22-17.27.22:645][998]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.029
+[2023.09.22-17.27.22:650][998]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/M_CobbleStone_Smooth] ([1] browsable assets)...
+[2023.09.22-17.27.22:693][998]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/M_CobbleStone_Smooth.M_CobbleStone_Smooth]
+[2023.09.22-17.27.22:693][998]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_CobbleStone_Smooth]
+[2023.09.22-17.27.22:702][998]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/StarterContent/Materials/M_CobbleStone_Smooth_Auto1
+[2023.09.22-17.27.22:702][998]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/M_CobbleStone_Smooth_Auto1F3BA32C8464E877B57D517AE9D652673.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/Autosaves/Game/StarterContent/Materials/M_CobbleStone_Smooth_Auto1.uasset'
+[2023.09.22-17.27.22:702][998]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/M_Ground_Moss] ([1] browsable assets)...
+[2023.09.22-17.27.22:707][998]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/M_Ground_Moss.M_Ground_Moss]
+[2023.09.22-17.27.22:707][998]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_Ground_Moss]
+[2023.09.22-17.27.22:710][998]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/StarterContent/Materials/M_Ground_Moss_Auto1
+[2023.09.22-17.27.22:710][998]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/M_Ground_Moss_Auto17C4DD3094F75240AC625DF8960E0A233.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/Autosaves/Game/StarterContent/Materials/M_Ground_Moss_Auto1.uasset'
+[2023.09.22-17.27.22:711][998]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse] ([1] browsable assets)...
+[2023.09.22-17.27.22:715][998]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.M_Tech_Hex_Tile_Pulse]
+[2023.09.22-17.27.22:715][998]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse]
+[2023.09.22-17.27.22:811][998]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse_Auto1
+[2023.09.22-17.27.22:811][998]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/M_Tech_Hex_Tile_Pulse_Auto1176FED7147429D79F780BC976895325D.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/Autosaves/Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse_Auto1.uasset'
+[2023.09.22-17.27.22:816][998]LogFileHelpers: Auto-saving content packages took 0.167
+[2023.09.22-18.18.56:778][345]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=VG245 (NVIDIA High Definition Audio), InstanceID=1
+[2023.09.22-18.18.56:983][345]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=32272
+[2023.09.22-18.18.57:007][346]LogAudioMixer: Error: XAudio2System->CreateMasteringVoice() -> 0x88890008: AUDCLNT_E_UNSUPPORTED_FORMAT (line: 345) with Args (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{dbea0fd9-f51a-44ae-9f00-71ddb1247ffe} Name=VG245 (NVIDIA High Definition Audio))
+[2023.09.22-18.18.57:104][346]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Realtek Digital Output (Realtek(R) Audio), InstanceID=1
+[2023.09.22-18.18.57:967][348]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{d1a95dc6-1903-45e3-a57d-ef089ba3e715}, Name=Realtek Digital Output (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=15.74
+[2023.09.22-18.18.57:967][348]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.22-18.18.57:968][348]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.23-20.51.23:500][367]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 6 Seconds] waiting for h/w. InstanceID=1
+[2023.09.23-20.51.24:670][367]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=32272
+[2023.09.23-20.51.24:725][368]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.09.23-20.51.25:367][368]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{d1a95dc6-1903-45e3-a57d-ef089ba3e715}, Name=Realtek Digital Output (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=589.19
+[2023.09.23-20.51.25:367][368]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.23-20.51.25:369][368]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.23-20.51.25:564][369]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=VG245 (NVIDIA High Definition Audio), InstanceID=1
+[2023.09.23-20.51.25:696][369]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=32272
+[2023.09.23-20.51.25:697][370]LogHttp: Warning: 00000BB8638A5000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.09.23-20.51.25:697][370]LogHttp: Warning: 00000BB8638A5000: libcurl info message cache 0 (Too old connection (95544 seconds idle), disconnect it)
+[2023.09.23-20.51.25:697][370]LogHttp: Warning: 00000BB8638A5000: libcurl info message cache 1 (Connection 5 seems to be dead)
+[2023.09.23-20.51.25:697][370]LogHttp: Warning: 00000BB8638A5000: libcurl info message cache 2 (Closing connection 5)
+[2023.09.23-20.51.25:697][370]LogHttp: Warning: 00000BB8638A5000: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.09.23-20.51.25:697][370]LogHttp: Warning: 00000BB8638A5000: libcurl info message cache 4 (Closing connection 6)
+[2023.09.23-20.51.25:697][370]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFA7F061F-479D-87D9-A2B0-62A858127049%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.0-27405482%2B%2B%2BUE5%2BRelease-5.3&UserID=d2089744435ef00535897893d427361e%7Cef24c47cfe6e44c585ac57e319c6650a%7Cc1408451-fe1b-4f81-983e-1f21f8105742&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.09.23-20.51.26:109][371]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=VX2452 Series (3- HD Audio Driver for Display Audio), InstanceID=1
+[2023.09.23-20.51.26:364][371]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{dbea0fd9-f51a-44ae-9f00-71ddb1247ffe}, Name=VG245 (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=369.28
+[2023.09.23-20.51.26:364][371]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.23-20.51.26:365][371]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.23-20.51.26:562][372]Could not fetch the local adapter addresses
+[2023.09.23-20.51.26:562][372]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2023.09.23-20.51.26:695][372]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=32272
+[2023.09.23-20.51.26:695][373]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.09.23-20.51.27:030][373]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{7bf591c4-e6be-42ef-a063-f8dcaa9345cc}, Name=VX2452 Series (3- HD Audio Driver for Display Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=17.82
+[2023.09.23-20.51.27:030][373]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.23-20.51.27:030][373]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.23-20.51.28:479][378]Could not fetch the local adapter addresses
+[2023.09.23-20.51.28:479][378]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2023.09.23-20.51.28:696][379]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.09.23-20.51.30:493][384]Could not fetch the local adapter addresses
+[2023.09.23-20.51.30:493][384]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2023.09.23-20.51.30:696][385]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.09.23-20.51.32:509][390]Could not fetch the local adapter addresses
+[2023.09.23-20.51.32:509][390]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2023.09.23-20.51.32:696][391]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.09.23-20.51.34:622][396]LogUdpMessaging: Display: Added local interface '192.168.1.93' to multicast group '230.0.0.1:6666'
+[2023.09.23-20.51.37:164][404]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Wireless Controller), InstanceID=1
+[2023.09.23-20.51.37:364][404]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=32272
+[2023.09.23-20.51.37:698][405]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=4, SampleRate=48000, DeviceID={0.0.0.00000000}.{62c34e9e-8a64-4a5f-bedc-4f1e37123c02}, Name=Speakers (Wireless Controller)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=12.81
+[2023.09.23-20.51.37:699][405]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=4, Samples=4096, InstanceID=1
+[2023.09.23-20.51.37:700][405]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.23-20.52.32:248][575]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=VG245 (NVIDIA High Definition Audio), InstanceID=1
+[2023.09.23-20.52.32:321][575]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=32272
+[2023.09.23-20.52.32:656][576]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{dbea0fd9-f51a-44ae-9f00-71ddb1247ffe}, Name=VG245 (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=26.93
+[2023.09.23-20.52.32:656][576]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.23-20.52.32:657][576]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.23-20.52.33:750][580]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=VX2452 Series (NVIDIA High Definition Audio), InstanceID=1
+[2023.09.23-20.52.33:988][580]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=32272
+[2023.09.23-20.52.34:323][581]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{47bb5289-c7d7-4f60-856d-b37e56ce2fbb}, Name=VX2452 Series (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=9.75
+[2023.09.23-20.52.34:323][581]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.23-20.52.34:324][581]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.23-20.52.35:440][585]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Realtek Digital Output (Realtek(R) Audio), InstanceID=1
+[2023.09.23-20.52.35:655][585]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=32272
+[2023.09.23-20.52.35:990][586]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{d1a95dc6-1903-45e3-a57d-ef089ba3e715}, Name=Realtek Digital Output (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=11.96
+[2023.09.23-20.52.35:990][586]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.23-20.52.35:991][586]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.23-20.52.36:386][588]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2023.09.23-20.52.36:656][588]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=32272
+[2023.09.23-20.52.36:990][589]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{d04daac4-58c3-4041-a276-b4dff7587cd9}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=15.20
+[2023.09.23-20.52.36:990][589]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.23-20.52.36:991][589]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.23-20.52.37:038][590]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=VX2452 Series (3- HD Audio Driver for Display Audio), InstanceID=1
+[2023.09.23-20.52.37:323][590]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=32272
+[2023.09.23-20.52.37:661][591]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{7bf591c4-e6be-42ef-a063-f8dcaa9345cc}, Name=VX2452 Series (3- HD Audio Driver for Display Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=12.50
+[2023.09.23-20.52.37:661][591]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.23-20.52.37:662][591]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.23-20.56.14:187][239]LogDerivedDataCache: C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.040 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 639 files in 1120 folders with total size 18 MiB.
+[2023.09.23-20.56.17:015][248]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.09.23-20.56.18:877][253]Could not fetch the local adapter addresses
+[2023.09.23-20.56.18:877][253]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2023.09.23-20.56.19:016][254]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.09.23-20.56.20:892][259]Could not fetch the local adapter addresses
+[2023.09.23-20.56.20:892][259]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2023.09.23-20.56.21:015][260]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.09.23-20.56.23:203][265]LogUdpMessaging: Display: Added local interface '192.168.1.105' to multicast group '230.0.0.1:6666'
+[2023.09.23-21.01.09:847][241]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.09.23-21.01.11:548][374]LogCEFBrowser: CEF GPU acceleration enabled
+[2023.09.23-21.01.56:293][649]LogSlate: Window 'Login' being destroyed
+[2023.09.23-21.02.24:085][971]LogWindows: LaunchURL https://quixel.com/pricing
+[2023.09.23-21.02.53:841][ 70]LogWindows: LaunchURL https://quixel.com/pricing
+[2023.09.23-21.04.09:209][637]LogWindows: LaunchURL https://quixel.com/account
+[2023.09.23-21.04.20:574][673]LogSlate: Window 'Bridge' being destroyed
+[2023.09.23-21.04.20:577][673]LogSlate: Window 'Bridge' being destroyed
+[2023.09.23-21.04.20:578][673]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2023.09.23-21.04.20:578][673]LogWebBrowser: Deleting browser for Url=file:///C:/Program%20Files/Epic%20Games/UE_5.3/Engine/Plugins/Bridge/ThirdParty/megascans/index.html#/megascans/home?category=3D%20asset&category=food.
+[2023.09.23-21.05.13:339][713]LogSlate: Window 'Bridge' being destroyed
+[2023.09.23-21.05.13:343][713]LogSlate: Window 'Bridge' being destroyed
+[2023.09.23-21.05.13:343][713]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2023.09.23-21.05.13:343][713]LogWebBrowser: Deleting browser for Url=file:///C:/Program%20Files/Epic%20Games/UE_5.3/Engine/Plugins/Bridge/ThirdParty/megascans/index.html?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhdmU1MTQ4OUBnbWFpbC5jb20iLCJzY29wZSI6WyJkZWZhdWx0OnVzZXIiLCJtZWdhc2NhbnM6dXNlciJdLCJlcGljQWNjb3VudElkIjoiZWYyNGM0N2NmZTZlNDRjNTg1YWM1N2UzMTljNjY1MGEiLCJpc1VucmVhbEVVTEFBY2NlcHRlZCI6dHJ1ZSwiaXNFcGljQWNjb3VudCI6dHJ1ZSwicXVpeGVsQWNjb3VudElkIjoiZTgwOWE4Y2MtYjY2ZS00NGNhLWI2YTktMDgwNjA3OWU1YjA3IiwicmVhbG0iOiJtZWdhc2NhbnMiLCJldWxhc0FjY2VwdGVkIjpbImVwaWNfY29udGVudCIsInVlIl0sImlhdCI6MTY5NTUwMjkyMywiZXhwIjoxNjk1NTMxNzIzLCJpc3MiOiJxdWl4ZWwtc3NvLXByb2QiLCJqdGkiOiIwY2EzMmY5YS1iNmUzLTQ4NDctODg3MS01MGUzYzVlMTY4MzcifQ.B-CPWq2ke1liYKsous8imM80CtAGdyNoS9xwNWiF_f3awW6sbHZbM_hqOXCC5le5VOzgii43sYMMQGCWhM_6AGkUoVVFSri1hIHu_FVCZe6iq9NFgwPZX4DzBmB_K8jjQj9hN-9XalkOQJanN7mmqmFa2i3wk5PpgnXSt4nIRcWCuFxmdCq12k85jfF-8GB5Bmt_IgLte9tK_b8dpMJKgykc21hshDaNL85DVdbibAhz116Z2DPO_05X9jJhhdyshGj73zjZMTxz2v4FNwg7AFCmupzGDGb8cr6zzpdq-fFXBT4kvkcYM4MJXZ5uHq-9fP9lP-xYamcddKU3QfUXQw&refreshToken=N2FlNTQxZDUtMjFhYy00NmJiLTlhMWEtNTQ2NGI4ZTRkOTJl#/megascans/home?category=3D%20asset&category=food.
+[2023.09.23-21.05.33:800][713]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.23-21.05.54:351][ 61]LogStaticMesh: Display: Building static mesh S_Half_Avocado_ujbjdalva_lod3_Var1...
+[2023.09.23-21.05.54:439][ 63]LogStaticMesh: Built static mesh [0.09s] /Game/Megascans/3D_Assets/Half_Avocado_ujbjdalva/S_Half_Avocado_ujbjdalva_lod3_Var1.S_Half_Avocado_ujbjdalva_lod3_Var1
+[2023.09.23-21.05.54:448][ 63]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Half_Avocado_ujbjdalva/T_HalfAvocado_ujbjdalva_2K_DpRTr.T_HalfAvocado_ujbjdalva_2K_DpRTr (TFO_DXT1, 2048x2048 x1x1x1) (Required Memory Estimate: 403.145823 MB), EncodeSpeed: Fast
+[2023.09.23-21.05.54:476][ 65]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Half_Avocado_ujbjdalva/T_Half_Avocado_ujbjdalva_2K_N.T_Half_Avocado_ujbjdalva_2K_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 577.562488 MB), EncodeSpeed: Fast
+[2023.09.23-21.05.54:518][ 68]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Half_Avocado_ujbjdalva/T_Half_Avocado_ujbjdalva_2K_D.T_Half_Avocado_ujbjdalva_2K_D (TFO_DXT1, 2048x2048 x1x1x1) (Required Memory Estimate: 403.145823 MB), EncodeSpeed: Fast
+[2023.09.23-21.05.57:487][418]LogSlate: Window 'Bridge' being destroyed
+[2023.09.23-21.05.57:491][418]LogSlate: Window 'Bridge' being destroyed
+[2023.09.23-21.05.57:491][418]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2023.09.23-21.05.57:491][418]LogWebBrowser: Deleting browser for Url=file:///C:/Program%20Files/Epic%20Games/UE_5.3/Engine/Plugins/Bridge/ThirdParty/megascans/index.html?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhdmU1MTQ4OUBnbWFpbC5jb20iLCJzY29wZSI6WyJkZWZhdWx0OnVzZXIiLCJtZWdhc2NhbnM6dXNlciJdLCJlcGljQWNjb3VudElkIjoiZWYyNGM0N2NmZTZlNDRjNTg1YWM1N2UzMTljNjY1MGEiLCJpc1VucmVhbEVVTEFBY2NlcHRlZCI6dHJ1ZSwiaXNFcGljQWNjb3VudCI6dHJ1ZSwicXVpeGVsQWNjb3VudElkIjoiZTgwOWE4Y2MtYjY2ZS00NGNhLWI2YTktMDgwNjA3OWU1YjA3IiwicmVhbG0iOiJtZWdhc2NhbnMiLCJldWxhc0FjY2VwdGVkIjpbImVwaWNfY29udGVudCIsInVlIl0sImlhdCI6MTY5NTUwMjkyMywiZXhwIjoxNjk1NTMxNzIzLCJpc3MiOiJxdWl4ZWwtc3NvLXByb2QiLCJqdGkiOiIwY2EzMmY5YS1iNmUzLTQ4NDctODg3MS01MGUzYzVlMTY4MzcifQ.B-CPWq2ke1liYKsous8imM80CtAGdyNoS9xwNWiF_f3awW6sbHZbM_hqOXCC5le5VOzgii43sYMMQGCWhM_6AGkUoVVFSri1hIHu_FVCZe6iq9NFgwPZX4DzBmB_K8jjQj9hN-9XalkOQJanN7mmqmFa2i3wk5PpgnXSt4nIRcWCuFxmdCq12k85jfF-8GB5Bmt_IgLte9tK_b8dpMJKgykc21hshDaNL85DVdbibAhz116Z2DPO_05X9jJhhdyshGj73zjZMTxz2v4FNwg7AFCmupzGDGb8cr6zzpdq-fFXBT4kvkcYM4MJXZ5uHq-9fP9lP-xYamcddKU3QfUXQw&refreshToken=N2FlNTQxZDUtMjFhYy00NmJiLTlhMWEtNTQ2NGI4ZTRkOTJl#/megascans/home?category=3D%20asset&category=food.
+[2023.09.23-21.06.01:179][817]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Half_Avocado_ujbjdalva/S_Half_Avocado_ujbjdalva_lod3_Var1.S_Half_Avocado_ujbjdalva_lod3_Var1
+[2023.09.23-21.06.01:180][817]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Half_Avocado_ujbjdalva/S_Half_Avocado_ujbjdalva_lod3_Var1.S_Half_Avocado_ujbjdalva_lod3_Var1
+[2023.09.23-21.06.01:182][817]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Half_Avocado_ujbjdalva/S_Half_Avocado_ujbjdalva_lod3_Var1.S_Half_Avocado_ujbjdalva_lod3_Var1 as actor: StaticMeshActor /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.StaticMeshActor_0
+[2023.09.23-21.06.02:976][ 26]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Half_Avocado_ujbjdalva/S_Half_Avocado_ujbjdalva_lod3_Var1.S_Half_Avocado_ujbjdalva_lod3_Var1
+[2023.09.23-21.06.02:976][ 26]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Half_Avocado_ujbjdalva/S_Half_Avocado_ujbjdalva_lod3_Var1.S_Half_Avocado_ujbjdalva_lod3_Var1
+[2023.09.23-21.06.02:978][ 26]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Half_Avocado_ujbjdalva/S_Half_Avocado_ujbjdalva_lod3_Var1.S_Half_Avocado_ujbjdalva_lod3_Var1 as actor: StaticMeshActor /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.StaticMeshActor_2
+[2023.09.23-21.07.48:549][828]Cmd: MODE GRID=0
+[2023.09.23-21.08.01:215][264]Cmd: DELETE
+[2023.09.23-21.08.01:215][264]Cmd: ACTOR DELETE
+[2023.09.23-21.08.01:226][264]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.09.23-21.08.01:230][264]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2023.09.23-21.08.01:230][264]LogWebBrowser: Deleting browser for Url=https://quixel.com/?code=78750cb3f98e4b34a420bb511f45f46a.
+[2023.09.23-21.08.01:230][264]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.09.23-21.08.01:232][264]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2023.09.23-21.08.02:676][437]Cmd: TRANSACTION UNDO
+[2023.09.23-21.08.02:676][437]LogEditorTransaction: Undo Delete Elements
+[2023.09.23-21.09.16:516][145]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.09.23-21.09.16:524][145]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2
+[2023.09.23-21.09.16:524][145]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/Minimal_Default_Auto234E8BC3F4A7B4780FBD8BEA1624D6B64.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2023.09.23-21.09.16:525][145]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap is in the /Temp path, will not scan.
+[2023.09.23-21.09.16:525][145]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2 is in the /Temp path, will not scan.
+[2023.09.23-21.09.16:525][145]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2 is in the /Temp path, will not scan.
+[2023.09.23-21.09.16:525][145]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StarterContent/Maps/Minimal_Default' took 0.011
+[2023.09.23-21.09.16:525][145]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.011
+[2023.09.23-21.09.16:525][145]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Materials/M_CobbleStone_Smooth] ([1] browsable assets)...
+[2023.09.23-21.09.16:525][145]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_CobbleStone_Smooth]
+[2023.09.23-21.09.16:534][145]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/StarterContent/Materials/M_CobbleStone_Smooth_Auto2
+[2023.09.23-21.09.16:534][145]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/M_CobbleStone_Smooth_Auto2E4D90C1047E1B183C2D4CA93EF0DFCD0.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/Autosaves/Game/StarterContent/Materials/M_CobbleStone_Smooth_Auto2.uasset'
+[2023.09.23-21.09.16:534][145]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Materials/M_Ground_Moss] ([1] browsable assets)...
+[2023.09.23-21.09.16:534][145]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_Ground_Moss]
+[2023.09.23-21.09.16:537][145]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/StarterContent/Materials/M_Ground_Moss_Auto2
+[2023.09.23-21.09.16:537][145]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/M_Ground_Moss_Auto247CC266B402595F6A0F580B637A2009C.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/Autosaves/Game/StarterContent/Materials/M_Ground_Moss_Auto2.uasset'
+[2023.09.23-21.09.16:537][145]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse] ([1] browsable assets)...
+[2023.09.23-21.09.16:537][145]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse]
+[2023.09.23-21.09.16:539][145]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse_Auto2
+[2023.09.23-21.09.16:539][145]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/M_Tech_Hex_Tile_Pulse_Auto21826C8EC46A4D39B438D27B9B7D6FECA.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/Autosaves/Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse_Auto2.uasset'
+[2023.09.23-21.09.16:539][145]LogFileHelpers: Auto-saving content packages took 0.014
+[2023.09.23-21.09.42:186][507]LogStaticMesh: Display: Building static mesh S_Modular_Building_Door_xd4ffcpdw_lod3_Var1...
+[2023.09.23-21.09.42:273][515]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Modular_Building_Door_xd4ffcpdw/T_ModularBuildingDoor_xd4ffcpdw_2K_DpR.T_ModularBuildingDoor_xd4ffcpdw_2K_DpR (TFO_DXT1, 2048x2048 x1x1x1) (Required Memory Estimate: 403.145823 MB), EncodeSpeed: Fast
+[2023.09.23-21.09.42:318][520]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Modular_Building_Door_xd4ffcpdw/T_Modular_Building_Door_xd4ffcpdw_2K_N.T_Modular_Building_Door_xd4ffcpdw_2K_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 577.562488 MB), EncodeSpeed: Fast
+[2023.09.23-21.09.42:346][522]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Modular_Building_Door_xd4ffcpdw/T_Modular_Building_Door_xd4ffcpdw_2K_D.T_Modular_Building_Door_xd4ffcpdw_2K_D (TFO_DXT1, 2048x2048 x1x1x1) (Required Memory Estimate: 403.145823 MB), EncodeSpeed: Fast
+[2023.09.23-21.09.42:591][550]LogStaticMesh: Built static mesh [0.40s] /Game/Megascans/3D_Assets/Modular_Building_Door_xd4ffcpdw/S_Modular_Building_Door_xd4ffcpdw_lod3_Var1.S_Modular_Building_Door_xd4ffcpdw_lod3_Var1
+[2023.09.23-21.09.44:743][808]LogSlate: Window 'Bridge' being destroyed
+[2023.09.23-21.09.44:748][808]LogSlate: Window 'Bridge' being destroyed
+[2023.09.23-21.09.44:748][808]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2023.09.23-21.09.44:748][808]LogWebBrowser: Deleting browser for Url=file:///C:/Program%20Files/Epic%20Games/UE_5.3/Engine/Plugins/Bridge/ThirdParty/megascans/index.html?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhdmU1MTQ4OUBnbWFpbC5jb20iLCJzY29wZSI6WyJkZWZhdWx0OnVzZXIiLCJtZWdhc2NhbnM6dXNlciJdLCJlcGljQWNjb3VudElkIjoiZWYyNGM0N2NmZTZlNDRjNTg1YWM1N2UzMTljNjY1MGEiLCJpc1VucmVhbEVVTEFBY2NlcHRlZCI6dHJ1ZSwiaXNFcGljQWNjb3VudCI6dHJ1ZSwicXVpeGVsQWNjb3VudElkIjoiZTgwOWE4Y2MtYjY2ZS00NGNhLWI2YTktMDgwNjA3OWU1YjA3IiwicmVhbG0iOiJtZWdhc2NhbnMiLCJldWxhc0FjY2VwdGVkIjpbImVwaWNfY29udGVudCIsInVlIl0sImlhdCI6MTY5NTUwMjkyMywiZXhwIjoxNjk1NTMxNzIzLCJpc3MiOiJxdWl4ZWwtc3NvLXByb2QiLCJqdGkiOiIwY2EzMmY5YS1iNmUzLTQ4NDctODg3MS01MGUzYzVlMTY4MzcifQ.B-CPWq2ke1liYKsous8imM80CtAGdyNoS9xwNWiF_f3awW6sbHZbM_hqOXCC5le5VOzgii43sYMMQGCWhM_6AGkUoVVFSri1hIHu_FVCZe6iq9NFgwPZX4DzBmB_K8jjQj9hN-9XalkOQJanN7mmqmFa2i3wk5PpgnXSt4nIRcWCuFxmdCq12k85jfF-8GB5Bmt_IgLte9tK_b8dpMJKgykc21hshDaNL85DVdbibAhz116Z2DPO_05X9jJhhdyshGj73zjZMTxz2v4FNwg7AFCmupzGDGb8cr6zzpdq-fFXBT4kvkcYM4MJXZ5uHq-9fP9lP-xYamcddKU3QfUXQw&refreshToken=N2FlNTQxZDUtMjFhYy00NmJiLTlhMWEtNTQ2NGI4ZTRkOTJl#/megascans/home?category=3D%20asset&category=building.
+[2023.09.23-21.09.52:492][697]LogMaterial: Display: Material /Game/Megascans/3D_Assets/Modular_Building_Door_xd4ffcpdw/T_Modular_Building_Door_xd4ffcpdw_2K_Mat.T_Modular_Building_Door_xd4ffcpdw_2K_Mat needed to have new flag set bUsedWithStaticLighting !
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display: ================================================
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display: Total job queries 271, among them cache hits 0 (0.00%)
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display: Tracking 231 distinct input hashes that result in 186 distinct outputs (80.52%)
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display: RAM used: 6.81 MiB of 3.20 GiB budget. Usage: 0.21%
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display: Shaders Compiled: 231
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display: Jobs assigned 255, completed 231 (90.59%)
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display: Average time worker was idle: 15315.49 s
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display: Time job spent in pending queue: average 0.27 s, longest 2.13 s
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display: Job execution time: average 1.17 s, max 2.30 s
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display: Job life time (pending + execution): average 1.46 s, max 2.65
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display: Shader code size: average 50.412 KiB, min 29.613 KiB, max 86.734 KiB
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 10.37 s
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display: Jobs were issued in 124 batches (only local compilation was used), average 2.06 jobs/batch
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display: Average processing rate: 22.28 jobs/sec
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display: Total thread time: 83.824 s
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display: Total thread preprocess time: 4.982 s
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display: Percentage time preprocessing: 5.94%
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display: Effective parallelization: 8.08 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display:                                           FLumenCardPS<true> (compiled    5 times, average 0.49 sec, max 0.52 sec, min 0.46 sec)
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled   11 times, average 0.47 sec, max 0.96 sec, min 0.20 sec)
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled   11 times, average 0.46 sec, max 0.82 sec, min 0.14 sec)
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled   11 times, average 0.45 sec, max 0.84 sec, min 0.18 sec)
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled   11 times, average 0.45 sec, max 0.77 sec, min 0.17 sec)
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight - 6.20% of total time (compiled   11 times, average 0.47 sec, max 0.96 sec, min 0.20 sec)
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ - 6.02% of total time (compiled   11 times, average 0.46 sec, max 0.82 sec, min 0.14 sec)
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight - 5.95% of total time (compiled   11 times, average 0.45 sec, max 0.84 sec, min 0.18 sec)
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 5.85% of total time (compiled   11 times, average 0.45 sec, max 0.77 sec, min 0.17 sec)
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 5.85% of total time (compiled   11 times, average 0.45 sec, max 0.77 sec, min 0.21 sec)
+[2023.09.23-21.09.53:204][727]LogShaderCompilers: Display: ================================================
+[2023.09.23-21.09.55:717][ 10]Cmd: TRANSACTION UNDO
+[2023.09.23-21.09.55:717][ 10]LogEditorTransaction: Undo Create Actors
+[2023.09.23-21.09.57:165][106]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Modular_Building_Door_xd4ffcpdw/S_Modular_Building_Door_xd4ffcpdw_lod3_Var1.S_Modular_Building_Door_xd4ffcpdw_lod3_Var1
+[2023.09.23-21.09.57:165][106]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Modular_Building_Door_xd4ffcpdw/S_Modular_Building_Door_xd4ffcpdw_lod3_Var1.S_Modular_Building_Door_xd4ffcpdw_lod3_Var1
+[2023.09.23-21.09.57:166][106]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Modular_Building_Door_xd4ffcpdw/S_Modular_Building_Door_xd4ffcpdw_lod3_Var1.S_Modular_Building_Door_xd4ffcpdw_lod3_Var1 as actor: StaticMeshActor /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.StaticMeshActor_3
+[2023.09.23-21.09.59:059][320]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Modular_Building_Door_xd4ffcpdw/S_Modular_Building_Door_xd4ffcpdw_lod3_Var1.S_Modular_Building_Door_xd4ffcpdw_lod3_Var1
+[2023.09.23-21.09.59:059][320]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Modular_Building_Door_xd4ffcpdw/S_Modular_Building_Door_xd4ffcpdw_lod3_Var1.S_Modular_Building_Door_xd4ffcpdw_lod3_Var1
+[2023.09.23-21.09.59:060][320]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Modular_Building_Door_xd4ffcpdw/S_Modular_Building_Door_xd4ffcpdw_lod3_Var1.S_Modular_Building_Door_xd4ffcpdw_lod3_Var1 as actor: StaticMeshActor /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.StaticMeshActor_4
+[2023.09.23-21.10.32:499][ 70]LogViewport: Scene viewport resized to 760x281, mode Windowed.
+[2023.09.23-21.10.32:509][ 70]LogSlate: Took 0.002976 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.09.23-21.10.32:509][ 70]LogViewport: Scene viewport resized to 761x281, mode Windowed.
+[2023.09.23-21.10.32:572][ 70]LogViewport: Scene viewport resized to 761x281, mode Windowed.
+[2023.09.23-21.10.32:601][ 70]LogViewport: Scene viewport resized to 1594x647, mode Windowed.
+[2023.09.23-21.10.32:635][ 71]LogViewport: Scene viewport resized to 1920x1032, mode Windowed.
+[2023.09.23-21.11.33:885][415]LogViewport: Scene viewport resized to 1872x974, mode Windowed.
+[2023.09.23-21.11.33:896][416]LogViewport: Scene viewport resized to 1815x908, mode Windowed.
+[2023.09.23-21.11.33:919][417]LogViewport: Scene viewport resized to 1719x795, mode Windowed.
+[2023.09.23-21.11.33:944][418]LogViewport: Scene viewport resized to 1639x702, mode Windowed.
+[2023.09.23-21.11.33:979][419]LogViewport: Scene viewport resized to 1571x621, mode Windowed.
+[2023.09.23-21.11.33:998][420]LogViewport: Scene viewport resized to 1550x595, mode Windowed.
+[2023.09.23-21.11.34:029][421]LogViewport: Scene viewport resized to 1530x573, mode Windowed.
+[2023.09.23-21.11.34:062][422]LogViewport: Scene viewport resized to 1526x567, mode Windowed.
+[2023.09.23-21.14.04:972][984]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2023.09.23-21.14.07:878][314]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.09.23-21.14.07:892][314]LogContentBrowser: Creating deferred item: NewFolder
+[2023.09.23-21.14.07:897][315]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.09.23-21.14.09:542][496]LogContentBrowser: Attempting asset rename: NewFolder -> Maps
+[2023.09.23-21.14.09:543][496]LogContentBrowser: End creating deferred item NewFolder
+[2023.09.23-21.14.22:417][371]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2023.09.23-21.14.22:422][371]LogContentBrowser: Creating deferred item: NewWorld
+[2023.09.23-21.14.22:497][373]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2023.09.23-21.14.26:645][858]LogContentBrowser: Attempting asset rename: NewWorld -> NewWorld
+[2023.09.23-21.14.26:645][858]LogContentBrowser: End creating deferred item NewWorld
+[2023.09.23-21.14.37:291][258]LogSlate: Window 'New Level' being destroyed
+[2023.09.23-21.14.40:593][258]LogSlate: Window 'Save Content' being destroyed
+[2023.09.23-21.14.40:601][258]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.23-21.14.40:649][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.09.23-21.14.40:656][258]LogSavePackage: Moving output files for package: /Game/StarterContent/Maps/Minimal_Default
+[2023.09.23-21.14.40:656][258]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/Minimal_Default3A5B5DEC40E117CBBA330EB0B8CE3D25.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/StarterContent/Maps/Minimal_Default.umap'
+[2023.09.23-21.14.40:662][258]LogFileHelpers: All files are already saved.
+[2023.09.23-21.14.40:662][258]LogFileHelpers: Saving map 'Minimal_Default' took 0.023
+[2023.09.23-21.14.40:669][258]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 2.13 sec)
+[2023.09.23-21.14.40:669][258]LightingResults: New page: Lighting Build
+[2023.09.23-21.14.40:676][258]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.09.23-21.14.40:677][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.23-21.14.40:677][258]MapCheck: New page: Map Check
+[2023.09.23-21.14.40:677][258]LightingResults: New page: Lighting Build
+[2023.09.23-21.14.40:678][258]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.23-21.14.40:680][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2023.09.23-21.14.40:689][258]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.23-21.14.40:689][258]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.23-21.14.40:689][258]LogAIModule: Creating AISystem for world Untitled
+[2023.09.23-21.14.40:690][258]LogWorldPartition: ULevel::OnLevelLoaded(Untitled)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2023.09.23-21.14.40:690][258]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.09.23-21.14.40:690][258]LogWorldPartition: UWorldPartition::Initialize : World = Untitled, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.09.23-21.14.40:690][258]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Untitled_2 is in the /Temp path, will not scan.
+[2023.09.23-21.14.40:690][258]LogContentBundle: [Untitled(Standalone)] Creating new contrainer.
+[2023.09.23-21.14.40:690][258]LogWorldPartition: Display: WorldPartition initialize took 156 us (total: 135 ms)
+[2023.09.23-21.14.40:698][258]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.09.23-21.14.40:716][258]LoadErrors: New page: New Map
+[2023.09.23-21.14.40:718][258]AssetCheck: New page: Asset Save: Minimal_Default
+[2023.09.23-21.14.50:181][363]LogViewport: Scene viewport resized to 1524x567, mode Windowed.
+[2023.09.23-21.14.50:189][364]LogViewport: Scene viewport resized to 1522x567, mode Windowed.
+[2023.09.23-21.14.50:204][365]LogViewport: Scene viewport resized to 1512x567, mode Windowed.
+[2023.09.23-21.14.50:213][366]LogViewport: Scene viewport resized to 1506x567, mode Windowed.
+[2023.09.23-21.14.50:221][367]LogViewport: Scene viewport resized to 1499x567, mode Windowed.
+[2023.09.23-21.14.50:232][368]LogViewport: Scene viewport resized to 1492x567, mode Windowed.
+[2023.09.23-21.14.50:241][369]LogViewport: Scene viewport resized to 1481x567, mode Windowed.
+[2023.09.23-21.14.50:250][370]LogViewport: Scene viewport resized to 1471x567, mode Windowed.
+[2023.09.23-21.14.50:259][371]LogViewport: Scene viewport resized to 1459x567, mode Windowed.
+[2023.09.23-21.14.50:284][372]LogViewport: Scene viewport resized to 1428x567, mode Windowed.
+[2023.09.23-21.14.50:292][373]LogViewport: Scene viewport resized to 1416x567, mode Windowed.
+[2023.09.23-21.14.50:317][374]LogViewport: Scene viewport resized to 1390x567, mode Windowed.
+[2023.09.23-21.14.50:326][375]LogViewport: Scene viewport resized to 1380x567, mode Windowed.
+[2023.09.23-21.14.50:336][376]LogViewport: Scene viewport resized to 1371x567, mode Windowed.
+[2023.09.23-21.14.50:345][377]LogViewport: Scene viewport resized to 1362x567, mode Windowed.
+[2023.09.23-21.14.50:369][378]LogViewport: Scene viewport resized to 1340x567, mode Windowed.
+[2023.09.23-21.14.50:380][379]LogViewport: Scene viewport resized to 1330x567, mode Windowed.
+[2023.09.23-21.14.50:391][380]LogViewport: Scene viewport resized to 1323x567, mode Windowed.
+[2023.09.23-21.14.50:399][381]LogViewport: Scene viewport resized to 1319x567, mode Windowed.
+[2023.09.23-21.14.50:408][382]LogViewport: Scene viewport resized to 1314x567, mode Windowed.
+[2023.09.23-21.14.50:418][383]LogViewport: Scene viewport resized to 1313x567, mode Windowed.
+[2023.09.23-21.14.50:428][384]LogViewport: Scene viewport resized to 1310x567, mode Windowed.
+[2023.09.23-21.15.41:270][ 63]LogSlate: Window 'Save Level As' being destroyed
+[2023.09.23-21.15.41:347][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.09.23-21.15.41:349][ 63]LogSavePackage: Moving output files for package: /Game/Maps/SlashOpenWorld
+[2023.09.23-21.15.41:349][ 63]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/SlashOpenWorld7FB9715B4CB2417AFE96288AF8E13389.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/Maps/SlashOpenWorld.umap'
+[2023.09.23-21.15.41:353][ 63]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/Maps/SlashOpenWorld_HLODLayer_Instanced
+/Game/Maps/SlashOpenWorld_HLODLayer_Merged
+/Game/__ExternalActors__/Maps/SlashOpenWorld/F/50/E32K80QIJKA33SEH12OVJX
+/Game/__ExternalActors__/Maps/SlashOpenWorld/B/I5/VIHS66XM2888W25P6863YV
+[2023.09.23-21.15.41:353][ 63]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.23-21.15.41:354][ 63]LogSavePackage: Moving output files for package: /Game/Maps/SlashOpenWorld_HLODLayer_Instanced
+[2023.09.23-21.15.41:354][ 63]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/SlashOpenWorld_HLODLayer_Instanc36A915544B15534BAE380E949BEDC657.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/Maps/SlashOpenWorld_HLODLayer_Instanced.uasset'
+[2023.09.23-21.15.41:354][ 63]LogSavePackage: Moving output files for package: /Game/Maps/SlashOpenWorld_HLODLayer_Merged
+[2023.09.23-21.15.41:354][ 63]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/SlashOpenWorld_HLODLayer_Merged22E7132345EC2E7DB0DEA8BF208FDA83.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/Maps/SlashOpenWorld_HLODLayer_Merged.uasset'
+[2023.09.23-21.15.41:356][ 63]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/SlashOpenWorld/F/50/E32K80QIJKA33SEH12OVJX
+[2023.09.23-21.15.41:356][ 63]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/E32K80QIJKA33SEH12OVJX60D1ED134DC180F3F918189FF060022F.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/__ExternalActors__/Maps/SlashOpenWorld/F/50/E32K80QIJKA33SEH12OVJX.uasset'
+[2023.09.23-21.15.41:358][ 63]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/SlashOpenWorld/B/I5/VIHS66XM2888W25P6863YV
+[2023.09.23-21.15.41:358][ 63]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/VIHS66XM2888W25P6863YV8D369C1341D94CA6B5C6C998E5F2825D.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/__ExternalActors__/Maps/SlashOpenWorld/B/I5/VIHS66XM2888W25P6863YV.uasset'
+[2023.09.23-21.15.41:358][ 63]LogFileHelpers: InternalPromptForCheckoutAndSave took 4 ms (total: 2.14 sec)
+[2023.09.23-21.15.41:358][ 63]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/Maps/SlashOpenWorld_HLODLayer_Instanced
+/Game/Maps/SlashOpenWorld_HLODLayer_Merged
+/Game/__ExternalActors__/Maps/SlashOpenWorld/F/50/E32K80QIJKA33SEH12OVJX
+/Game/__ExternalActors__/Maps/SlashOpenWorld/B/I5/VIHS66XM2888W25P6863YV
+[2023.09.23-21.15.41:368][ 63]LogFileHelpers: Saving map 'SlashOpenWorld' took 0.088
+[2023.09.23-21.15.41:368][ 63]Cmd: MAP LOAD FILE="../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/Maps/SlashOpenWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.09.23-21.15.41:368][ 63]LightingResults: New page: Lighting Build
+[2023.09.23-21.15.41:368][ 63]LoadErrors: New page: Loading map: SlashOpenWorld.umap
+[2023.09.23-21.15.41:374][ 63]LogWorld: UWorld::CleanupWorld for SlashOpenWorld, bSessionEnded=true, bCleanupResources=true
+[2023.09.23-21.15.41:374][ 63]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.23-21.15.41:375][ 63]LogContentBundle: [SlashOpenWorld(Standalone)] Deleting container.
+[2023.09.23-21.15.41:375][ 63]MapCheck: New page: Map Check
+[2023.09.23-21.15.41:375][ 63]LightingResults: New page: Lighting Build
+[2023.09.23-21.15.41:376][ 63]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.23-21.15.41:378][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2023.09.23-21.15.41:380][ 63]LogAudio: Display: Audio Device (ID: 1) registered with world 'SlashOpenWorld'.
+[2023.09.23-21.15.41:380][ 63]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.23-21.15.41:380][ 63]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.23-21.15.41:380][ 63]LogAIModule: Creating AISystem for world SlashOpenWorld
+[2023.09.23-21.15.41:380][ 63]LogWorldPartition: ULevel::OnLevelLoaded(SlashOpenWorld)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2023.09.23-21.15.41:380][ 63]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.09.23-21.15.41:380][ 63]LogWorldPartition: UWorldPartition::Initialize : World = SlashOpenWorld, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.09.23-21.15.41:381][ 63]LogContentBundle: [SlashOpenWorld(Standalone)] Creating new contrainer.
+[2023.09.23-21.15.41:381][ 63]LogWorldPartition: Display: WorldPartition initialize took 659 us (total: 136 ms)
+[2023.09.23-21.15.41:391][ 63]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.09.23-21.15.41:393][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2023.09.23-21.15.41:395][ 63]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.09.23-21.15.41:395][ 63]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.127ms to complete.
+[2023.09.23-21.15.41:398][ 63]AssetCheck: New page: Asset Save: multiple assets
+[2023.09.23-21.15.41:398][ 63]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/SlashOpenWorld.SlashOpenWorld
+[2023.09.23-21.15.41:398][ 63]LogContentValidation: Display: Validating /Script/Engine.HLODLayer /Game/Maps/SlashOpenWorld_HLODLayer_Instanced.SlashOpenWorld_HLODLayer_Instanced
+[2023.09.23-21.15.41:398][ 63]LogContentValidation: Display: Validating /Script/Engine.HLODLayer /Game/Maps/SlashOpenWorld_HLODLayer_Merged.SlashOpenWorld_HLODLayer_Merged
+[2023.09.23-21.15.41:398][ 63]LogContentValidation: Display: Validating /Script/Engine.WorldDataLayers /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.WorldDataLayers
+[2023.09.23-21.15.41:398][ 63]LogContentValidation: Display: Validating /Script/Engine.WorldPartitionMiniMap /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.WorldPartitionMiniMap_UAID_C87F540B4C3E01AC01_1136516967
+[2023.09.23-21.17.40:947][302]LogSlate: External Image Picker: DecompressImage failed
+[2023.09.23-21.18.15:909][448]LogSlate: Window 'Project Settings' being destroyed
+[2023.09.23-21.18.15:913][448]LogSlate: Window 'Project Settings' being destroyed
+[2023.09.23-21.18.26:203][670]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2023.09.23-21.18.27:649][670]LogSlate: Window 'Save Content' being destroyed
+[2023.09.23-21.18.27:656][670]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.23-21.18.27:706][670]LogSavePackage: Moving output files for package: /Game/StarterContent/Materials/M_CobbleStone_Smooth
+[2023.09.23-21.18.27:706][670]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/M_CobbleStone_Smooth9FEAF1CE444E9383192CE29B3F7A3881.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset'
+[2023.09.23-21.18.27:709][670]LogSavePackage: Moving output files for package: /Game/StarterContent/Materials/M_Ground_Moss
+[2023.09.23-21.18.27:709][670]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/M_Ground_Moss6B6921D249563E5572F29AB23F863C02.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/StarterContent/Materials/M_Ground_Moss.uasset'
+[2023.09.23-21.18.27:711][670]LogSavePackage: Moving output files for package: /Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse
+[2023.09.23-21.18.27:711][670]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/M_Tech_Hex_Tile_Pulse24A961EB47E766529F7CAEA6BDA960EF.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset'
+[2023.09.23-21.18.27:716][670]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 2.20 sec)
+[2023.09.23-21.18.27:716][670]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/SlashOpenWorld.SlashOpenWorld
+[2023.09.23-21.18.27:716][670]Cmd: MAP LOAD FILE="../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/Maps/SlashOpenWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.09.23-21.18.27:716][670]LightingResults: New page: Lighting Build
+[2023.09.23-21.18.27:716][670]LoadErrors: New page: Loading map: SlashOpenWorld.umap
+[2023.09.23-21.18.27:722][670]LogWorld: UWorld::CleanupWorld for SlashOpenWorld, bSessionEnded=true, bCleanupResources=true
+[2023.09.23-21.18.27:722][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.23-21.18.27:723][670]LogContentBundle: [SlashOpenWorld(Standalone)] Deleting container.
+[2023.09.23-21.18.27:724][670]MapCheck: New page: Map Check
+[2023.09.23-21.18.27:724][670]LightingResults: New page: Lighting Build
+[2023.09.23-21.18.27:724][670]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.23-21.18.27:725][670]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.09.23-21.18.27:726][670]LogAudio: Display: Audio Device (ID: 1) registered with world 'SlashOpenWorld'.
+[2023.09.23-21.18.27:726][670]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.23-21.18.27:726][670]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.23-21.18.27:728][670]LogAIModule: Creating AISystem for world SlashOpenWorld
+[2023.09.23-21.18.27:728][670]LogWorldPartition: ULevel::OnLevelLoaded(SlashOpenWorld)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2023.09.23-21.18.27:728][670]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.09.23-21.18.27:728][670]LogWorldPartition: UWorldPartition::Initialize : World = SlashOpenWorld, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.09.23-21.18.27:728][670]LogContentBundle: [SlashOpenWorld(Standalone)] Creating new contrainer.
+[2023.09.23-21.18.27:728][670]LogWorldPartition: Display: WorldPartition initialize took 548 us (total: 137 ms)
+[2023.09.23-21.18.27:736][670]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.09.23-21.18.27:741][670]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.09.23-21.18.27:743][670]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.09.23-21.18.27:743][670]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.091ms to complete.
+[2023.09.23-21.18.27:745][670]AssetCheck: New page: Asset Save: multiple assets
+[2023.09.23-21.18.27:745][670]LogContentValidation: Display: Validating /Script/Engine.Material /Game/StarterContent/Materials/M_CobbleStone_Smooth.M_CobbleStone_Smooth
+[2023.09.23-21.18.27:745][670]LogContentValidation: Display: Validating /Script/Engine.Material /Game/StarterContent/Materials/M_Ground_Moss.M_Ground_Moss
+[2023.09.23-21.18.27:745][670]LogContentValidation: Display: Validating /Script/Engine.Material /Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.M_Tech_Hex_Tile_Pulse
+[2023.09.23-21.18.37:781][810]LogViewport: Scene viewport resized to 1078x567, mode Windowed.
+[2023.09.23-21.18.58:696][304]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2023.09.23-21.18.58:696][304]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2023.09.23-21.18.58:696][304]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.SkyAtmosphere_0
+[2023.09.23-21.18.58:696][304]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.SkyAtmosphere_0
+[2023.09.23-21.19.00:531][524]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2023.09.23-21.19.00:531][524]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2023.09.23-21.19.00:532][524]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.SkyAtmosphere_UAID_C87F540B4C3E01AC01_1396358968
+[2023.09.23-21.19.00:532][524]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.SkyAtmosphere_UAID_C87F540B4C3E01AC01_1396358968
+[2023.09.23-21.19.14:604][205]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2023.09.23-21.19.14:604][205]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2023.09.23-21.19.14:605][205]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.DirectionalLight_0
+[2023.09.23-21.19.14:605][205]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.DirectionalLight_0
+[2023.09.23-21.19.19:692][815]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2023.09.23-21.19.19:692][815]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2023.09.23-21.19.19:693][815]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.DirectionalLight_UAID_C87F540B4C3E01AC01_1415519969
+[2023.09.23-21.19.19:693][815]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.DirectionalLight_UAID_C87F540B4C3E01AC01_1415519969
+[2023.09.23-21.20.31:902][462]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2023.09.23-21.20.31:902][462]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2023.09.23-21.20.31:902][462]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.DirectionalLight_1
+[2023.09.23-21.20.31:902][462]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.DirectionalLight_1
+[2023.09.23-21.20.31:911][463]LogSlate: Took 0.002728 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.09.23-21.20.33:483][651]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2023.09.23-21.20.33:483][651]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2023.09.23-21.20.33:484][651]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.DirectionalLight_UAID_C87F540B4C3E01AC01_1489310970
+[2023.09.23-21.20.33:484][651]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.DirectionalLight_UAID_C87F540B4C3E01AC01_1489310970
+[2023.09.23-21.20.43:565][855]LogEditorViewport: Clicking Background
+[2023.09.23-21.25.13:016][169]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2023.09.23-21.25.13:016][169]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2023.09.23-21.25.13:018][169]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.SkyLight_0
+[2023.09.23-21.25.13:018][169]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.SkyLight_0
+[2023.09.23-21.25.13:526][226]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2023.09.23-21.25.13:526][226]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2023.09.23-21.25.13:526][226]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.SkyLight_UAID_C87F540B4C3E01AC01_1769353971
+[2023.09.23-21.25.13:526][226]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.SkyLight_UAID_C87F540B4C3E01AC01_1769353971
+[2023.09.23-21.25.59:706][731]EditorErrors: New page: Actor attachment
+[2023.09.23-21.26.05:348][390]EditorErrors: New page: Actor attachment
+[2023.09.23-21.26.40:012][522]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.ExponentialHeightFog
+[2023.09.23-21.26.40:012][522]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.ExponentialHeightFog
+[2023.09.23-21.26.40:012][522]LogActorFactory: Actor Factory spawned Class /Script/Engine.ExponentialHeightFog as actor: ExponentialHeightFog /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.ExponentialHeightFog_0
+[2023.09.23-21.26.40:012][522]LogActorFactory: Actor Factory spawned Class /Script/Engine.ExponentialHeightFog as actor: ExponentialHeightFog /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.ExponentialHeightFog_0
+[2023.09.23-21.26.40:574][589]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.ExponentialHeightFog
+[2023.09.23-21.26.40:574][589]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.ExponentialHeightFog
+[2023.09.23-21.26.40:575][589]LogActorFactory: Actor Factory spawned Class /Script/Engine.ExponentialHeightFog as actor: ExponentialHeightFog /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.ExponentialHeightFog_UAID_C87F540B4C3E01AC01_1856401972
+[2023.09.23-21.26.40:575][589]LogActorFactory: Actor Factory spawned Class /Script/Engine.ExponentialHeightFog as actor: ExponentialHeightFog /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.ExponentialHeightFog_UAID_C87F540B4C3E01AC01_1856401972
+[2023.09.23-21.27.04:222][405]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.VolumetricCloud
+[2023.09.23-21.27.04:222][405]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.VolumetricCloud
+[2023.09.23-21.27.04:223][405]LogActorFactory: Actor Factory spawned Class /Script/Engine.VolumetricCloud as actor: VolumetricCloud /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.VolumetricCloud_0
+[2023.09.23-21.27.04:223][405]LogActorFactory: Actor Factory spawned Class /Script/Engine.VolumetricCloud as actor: VolumetricCloud /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.VolumetricCloud_0
+[2023.09.23-21.27.05:539][552]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.VolumetricCloud
+[2023.09.23-21.27.05:539][552]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.VolumetricCloud
+[2023.09.23-21.27.05:540][552]LogActorFactory: Actor Factory spawned Class /Script/Engine.VolumetricCloud as actor: VolumetricCloud /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.VolumetricCloud_UAID_C87F540B4C3E01AC01_1881366973
+[2023.09.23-21.27.05:540][552]LogActorFactory: Actor Factory spawned Class /Script/Engine.VolumetricCloud as actor: VolumetricCloud /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.VolumetricCloud_UAID_C87F540B4C3E01AC01_1881366973
+[2023.09.23-21.29.25:115][219]LogViewport: Scene viewport resized to 537x281, mode Windowed.
+[2023.09.23-21.29.25:121][219]LogViewport: Scene viewport resized to 536x281, mode Windowed.
+[2023.09.23-21.29.25:130][219]LogViewport: Scene viewport resized to 536x281, mode Windowed.
+[2023.09.23-21.29.25:140][219]LogViewport: Scene viewport resized to 1217x644, mode Windowed.
+[2023.09.23-21.29.25:151][220]LogViewport: Scene viewport resized to 1627x870, mode Windowed.
+[2023.09.23-21.29.25:180][221]LogViewport: Scene viewport resized to 1809x970, mode Windowed.
+[2023.09.23-21.29.25:201][222]LogViewport: Scene viewport resized to 1875x1007, mode Windowed.
+[2023.09.23-21.29.25:219][223]LogViewport: Scene viewport resized to 1906x1024, mode Windowed.
+[2023.09.23-21.29.25:237][224]LogViewport: Scene viewport resized to 1918x1031, mode Windowed.
+[2023.09.23-21.29.25:254][225]LogViewport: Scene viewport resized to 1920x1032, mode Windowed.
+[2023.09.23-21.29.27:052][439]Cmd: SELECT NONE
+[2023.09.23-21.29.28:945][665]LogViewport: Scene viewport resized to 1816x974, mode Windowed.
+[2023.09.23-21.29.28:954][666]LogViewport: Scene viewport resized to 1717x920, mode Windowed.
+[2023.09.23-21.29.28:974][667]LogViewport: Scene viewport resized to 1531x817, mode Windowed.
+[2023.09.23-21.29.28:996][668]LogViewport: Scene viewport resized to 1372x729, mode Windowed.
+[2023.09.23-21.29.29:012][669]LogViewport: Scene viewport resized to 1281x679, mode Windowed.
+[2023.09.23-21.29.29:026][670]LogViewport: Scene viewport resized to 1216x644, mode Windowed.
+[2023.09.23-21.29.29:044][671]LogViewport: Scene viewport resized to 1161x613, mode Windowed.
+[2023.09.23-21.29.29:070][672]LogViewport: Scene viewport resized to 1108x583, mode Windowed.
+[2023.09.23-21.29.29:101][673]LogViewport: Scene viewport resized to 1082x570, mode Windowed.
+[2023.09.23-21.29.29:123][674]LogViewport: Scene viewport resized to 1078x567, mode Windowed.
+[2023.09.23-21.33.04:827][781]LogEditorViewport: Clicking Background
+[2023.09.23-21.33.08:004][160]LogViewport: Scene viewport resized to 1217x643, mode Windowed.
+[2023.09.23-21.33.08:014][161]LogViewport: Scene viewport resized to 1338x710, mode Windowed.
+[2023.09.23-21.33.08:029][162]LogViewport: Scene viewport resized to 1519x811, mode Windowed.
+[2023.09.23-21.33.08:048][163]LogViewport: Scene viewport resized to 1688x903, mode Windowed.
+[2023.09.23-21.33.08:065][164]LogViewport: Scene viewport resized to 1785x957, mode Windowed.
+[2023.09.23-21.33.08:083][165]LogViewport: Scene viewport resized to 1857x997, mode Windowed.
+[2023.09.23-21.33.08:099][166]LogViewport: Scene viewport resized to 1894x1018, mode Windowed.
+[2023.09.23-21.33.08:120][167]LogViewport: Scene viewport resized to 1915x1029, mode Windowed.
+[2023.09.23-21.33.08:137][168]LogViewport: Scene viewport resized to 1920x1032, mode Windowed.
+[2023.09.23-21.33.14:724][723]LogEditorViewport: Clicking Background
+[2023.09.23-21.33.14:821][730]Cmd: SELECT NONE
+[2023.09.23-21.33.15:506][799]Cmd: SELECT NONE
+[2023.09.23-21.33.17:155][996]LogViewport: Scene viewport resized to 1816x974, mode Windowed.
+[2023.09.23-21.33.17:163][997]LogViewport: Scene viewport resized to 1720x921, mode Windowed.
+[2023.09.23-21.33.17:181][998]LogViewport: Scene viewport resized to 1554x830, mode Windowed.
+[2023.09.23-21.33.17:197][999]LogViewport: Scene viewport resized to 1429x761, mode Windowed.
+[2023.09.23-21.33.17:213][  0]LogViewport: Scene viewport resized to 1327x704, mode Windowed.
+[2023.09.23-21.33.17:229][  1]LogViewport: Scene viewport resized to 1248x661, mode Windowed.
+[2023.09.23-21.33.17:244][  2]LogViewport: Scene viewport resized to 1192x630, mode Windowed.
+[2023.09.23-21.33.17:261][  3]LogViewport: Scene viewport resized to 1141x603, mode Windowed.
+[2023.09.23-21.33.17:278][  4]LogViewport: Scene viewport resized to 1112x586, mode Windowed.
+[2023.09.23-21.33.17:292][  5]LogViewport: Scene viewport resized to 1095x576, mode Windowed.
+[2023.09.23-21.33.17:306][  6]LogViewport: Scene viewport resized to 1085x571, mode Windowed.
+[2023.09.23-21.33.17:321][  7]LogViewport: Scene viewport resized to 1080x568, mode Windowed.
+[2023.09.23-21.33.17:336][  8]LogViewport: Scene viewport resized to 1078x567, mode Windowed.
+[2023.09.23-21.34.49:588][ 75]LogEditorViewport: Clicking Background
+[2023.09.23-21.34.51:436][279]LogViewport: Scene viewport resized to 1221x646, mode Windowed.
+[2023.09.23-21.34.51:446][280]LogViewport: Scene viewport resized to 1360x723, mode Windowed.
+[2023.09.23-21.34.51:461][281]LogViewport: Scene viewport resized to 1539x821, mode Windowed.
+[2023.09.23-21.34.51:483][282]LogViewport: Scene viewport resized to 1710x916, mode Windowed.
+[2023.09.23-21.34.51:498][283]LogViewport: Scene viewport resized to 1799x965, mode Windowed.
+[2023.09.23-21.34.51:518][284]LogViewport: Scene viewport resized to 1870x1004, mode Windowed.
+[2023.09.23-21.34.51:540][285]LogViewport: Scene viewport resized to 1907x1025, mode Windowed.
+[2023.09.23-21.34.51:561][286]LogViewport: Scene viewport resized to 1919x1032, mode Windowed.
+[2023.09.23-21.34.51:582][287]LogViewport: Scene viewport resized to 1920x1032, mode Windowed.
+[2023.09.23-21.34.54:614][648]Cmd: SELECT NONE
+[2023.09.23-21.35.22:892][223]LogCore: Display: Tracing Screenshot "HighresScreenshot00000" taken with size: 1920 x 1032
+[2023.09.23-21.35.23:098][224]LogClient: High resolution screenshot saved as C:/Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/Screenshots/WindowsEditor/HighresScreenshot00000.png
+[2023.09.23-21.35.35:498][535]LogCore: Display: Tracing Screenshot "HighresScreenshot00001" taken with size: 1617 x 956
+[2023.09.23-21.35.35:665][536]LogClient: High resolution screenshot saved as C:/Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/Screenshots/WindowsEditor/HighresScreenshot00001.png
+[2023.09.23-21.35.51:638][695]Cmd: r.ResetRenderTargetsExtent
+[2023.09.23-21.35.51:638][695]Scene texture extent history reset. Next scene render will reallocate textures at the requested size.
+[2023.09.23-21.35.51:638][695]LogSlate: Window 'High Resolution Screenshot' being destroyed
+[2023.09.23-21.35.52:348][750]Cmd: SELECT NONE
+[2023.09.23-21.36.17:543][998]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.09.23-21.36.17:548][998]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/SlashOpenWorld/7/IS/791VYX903G4FDTYNSEGSIR_Auto3
+[2023.09.23-21.36.17:548][998]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/791VYX903G4FDTYNSEGSIR_Auto3E5A5F5804525EF0214DD018D91EFBFA6.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/Autosaves/Game/__ExternalActors__/Maps/SlashOpenWorld/7/IS/791VYX903G4FDTYNSEGSIR_Auto3.uasset'
+[2023.09.23-21.36.17:549][998]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/SlashOpenWorld/E/ZF/5GH42GVI6YFVGBZKV1MQW2_Auto3
+[2023.09.23-21.36.17:549][998]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/5GH42GVI6YFVGBZKV1MQW2_Auto391AA8E8941CE15D62AECCEB41F560B6B.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/Autosaves/Game/__ExternalActors__/Maps/SlashOpenWorld/E/ZF/5GH42GVI6YFVGBZKV1MQW2_Auto3.uasset'
+[2023.09.23-21.36.17:550][998]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/SlashOpenWorld/1/OS/A76KM8TMNNIJ7KOO48LA8Z_Auto3
+[2023.09.23-21.36.17:550][998]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/A76KM8TMNNIJ7KOO48LA8Z_Auto3FD81E14B47632E18CBDA9F8AD7FDB1CC.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/Autosaves/Game/__ExternalActors__/Maps/SlashOpenWorld/1/OS/A76KM8TMNNIJ7KOO48LA8Z_Auto3.uasset'
+[2023.09.23-21.36.17:552][998]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/SlashOpenWorld/B/DE/DX277HK3OH93VHVU1T5VP7_Auto3
+[2023.09.23-21.36.17:552][998]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/DX277HK3OH93VHVU1T5VP7_Auto33315625D446824968C13F886E3918A1A.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/Autosaves/Game/__ExternalActors__/Maps/SlashOpenWorld/B/DE/DX277HK3OH93VHVU1T5VP7_Auto3.uasset'
+[2023.09.23-21.36.17:553][998]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/SlashOpenWorld/5/3C/NOSTH3Y4H1MWASR4YFAK2T_Auto3
+[2023.09.23-21.36.17:553][998]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/NOSTH3Y4H1MWASR4YFAK2T_Auto35AE2FC114F6F7574474E92B5320169D4.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/Autosaves/Game/__ExternalActors__/Maps/SlashOpenWorld/5/3C/NOSTH3Y4H1MWASR4YFAK2T_Auto3.uasset'
+[2023.09.23-21.36.17:554][998]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/SlashOpenWorld/4/3I/VGEZPHQE98XD63XG7CZELA_Auto3
+[2023.09.23-21.36.17:554][998]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/VGEZPHQE98XD63XG7CZELA_Auto351CEB5DA4DBF2548E04E2F9A6264CE82.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/Autosaves/Game/__ExternalActors__/Maps/SlashOpenWorld/4/3I/VGEZPHQE98XD63XG7CZELA_Auto3.uasset'
+[2023.09.23-21.36.17:554][998]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/SlashOpenWorld' took 0.016
+[2023.09.23-21.36.17:554][998]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.016
+[2023.09.23-21.40.39:983][155]LogViewport: Scene viewport resized to 1815x974, mode Windowed.
+[2023.09.23-21.40.39:991][156]LogViewport: Scene viewport resized to 1717x920, mode Windowed.
+[2023.09.23-21.40.40:008][157]LogViewport: Scene viewport resized to 1556x831, mode Windowed.
+[2023.09.23-21.40.40:025][158]LogViewport: Scene viewport resized to 1428x761, mode Windowed.
+[2023.09.23-21.40.40:050][159]LogViewport: Scene viewport resized to 1282x679, mode Windowed.
+[2023.09.23-21.40.40:071][160]LogViewport: Scene viewport resized to 1192x630, mode Windowed.
+[2023.09.23-21.40.40:088][161]LogViewport: Scene viewport resized to 1144x604, mode Windowed.
+[2023.09.23-21.40.40:105][162]LogViewport: Scene viewport resized to 1112x586, mode Windowed.
+[2023.09.23-21.40.40:120][163]LogViewport: Scene viewport resized to 1094x575, mode Windowed.
+[2023.09.23-21.40.40:135][164]LogViewport: Scene viewport resized to 1084x570, mode Windowed.
+[2023.09.23-21.40.40:153][165]LogViewport: Scene viewport resized to 1079x567, mode Windowed.
+[2023.09.23-21.40.40:167][166]LogViewport: Scene viewport resized to 1078x567, mode Windowed.
+[2023.09.23-21.40.43:435][544]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.09.23-21.40.43:439][544]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.23-21.40.43:470][544]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/SlashOpenWorld/7/IS/791VYX903G4FDTYNSEGSIR
+[2023.09.23-21.40.43:470][544]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/791VYX903G4FDTYNSEGSIRD384A6C642AC773238EF6698806A57A6.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/__ExternalActors__/Maps/SlashOpenWorld/7/IS/791VYX903G4FDTYNSEGSIR.uasset'
+[2023.09.23-21.40.43:472][544]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/SlashOpenWorld/E/ZF/5GH42GVI6YFVGBZKV1MQW2
+[2023.09.23-21.40.43:472][544]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/5GH42GVI6YFVGBZKV1MQW22E719FF14A6DECFF428974BD84170B2E.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/__ExternalActors__/Maps/SlashOpenWorld/E/ZF/5GH42GVI6YFVGBZKV1MQW2.uasset'
+[2023.09.23-21.40.43:473][544]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/SlashOpenWorld/1/OS/A76KM8TMNNIJ7KOO48LA8Z
+[2023.09.23-21.40.43:473][544]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/A76KM8TMNNIJ7KOO48LA8ZAF9AAB09473DEC8EC7E61A907364673B.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/__ExternalActors__/Maps/SlashOpenWorld/1/OS/A76KM8TMNNIJ7KOO48LA8Z.uasset'
+[2023.09.23-21.40.43:474][544]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/SlashOpenWorld/B/DE/DX277HK3OH93VHVU1T5VP7
+[2023.09.23-21.40.43:474][544]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/DX277HK3OH93VHVU1T5VP73FED51F047D89731AC827B888D3E66B8.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/__ExternalActors__/Maps/SlashOpenWorld/B/DE/DX277HK3OH93VHVU1T5VP7.uasset'
+[2023.09.23-21.40.43:475][544]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/SlashOpenWorld/5/3C/NOSTH3Y4H1MWASR4YFAK2T
+[2023.09.23-21.40.43:475][544]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/NOSTH3Y4H1MWASR4YFAK2T81D37117400163AE9FBDF490182F0357.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/__ExternalActors__/Maps/SlashOpenWorld/5/3C/NOSTH3Y4H1MWASR4YFAK2T.uasset'
+[2023.09.23-21.40.43:476][544]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/SlashOpenWorld/4/3I/VGEZPHQE98XD63XG7CZELA
+[2023.09.23-21.40.43:476][544]LogSavePackage: Moving '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/VGEZPHQE98XD63XG7CZELA683D73654123D180BA44258F76A2C056.tmp' to '../../../../../../Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Content/__ExternalActors__/Maps/SlashOpenWorld/4/3I/VGEZPHQE98XD63XG7CZELA.uasset'
+[2023.09.23-21.40.43:490][544]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 2.25 sec)
+[2023.09.23-21.40.43:527][544]AssetCheck: New page: Asset Save: multiple assets
+[2023.09.23-21.40.43:527][544]LogContentValidation: Display: Validating /Script/Engine.VolumetricCloud /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.VolumetricCloud_UAID_C87F540B4C3E01AC01_1881366973
+[2023.09.23-21.40.43:527][544]LogContentValidation: Display: Validating /Script/Engine.SkyAtmosphere /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.SkyAtmosphere_UAID_C87F540B4C3E01AC01_1396358968
+[2023.09.23-21.40.43:527][544]LogContentValidation: Display: Validating /Script/Engine.SkyLight /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.SkyLight_UAID_C87F540B4C3E01AC01_1769353971
+[2023.09.23-21.40.43:527][544]LogContentValidation: Display: Validating /Script/Engine.DirectionalLight /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.DirectionalLight_UAID_C87F540B4C3E01AC01_1415519969
+[2023.09.23-21.40.43:527][544]LogContentValidation: Display: Validating /Script/Engine.ExponentialHeightFog /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.ExponentialHeightFog_UAID_C87F540B4C3E01AC01_1856401972
+[2023.09.23-21.40.43:527][544]LogContentValidation: Display: Validating /Script/Engine.DirectionalLight /Game/Maps/SlashOpenWorld.SlashOpenWorld:PersistentLevel.DirectionalLight_UAID_C87F540B4C3E01AC01_1489310970
+[2023.09.23-21.46.18:192][949]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2023.09.23-21.46.18:194][949]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/SlashOpenWorld' took 0.004
+[2023.09.23-21.55.07:239][157]LogSlate: External Image Picker: DecompressImage failed
+[2023.09.23-21.55.37:707][768]LogSlate: Window 'Project Settings' being destroyed
+[2023.09.23-21.55.37:711][768]LogSlate: Window 'Project Settings' being destroyed
+[2023.09.23-21.56.15:178][509]LogDerivedDataCache: C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.030 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 739 files in 1299 folders with total size 35 MiB.
+[2023.09.23-21.56.18:489][518]LogFileManager: Warning: DeleteFile was unable to delete 'C:/Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/Config/WindowsEditor/Engine.ini', retrying in .5s...
+[2023.09.23-21.56.18:990][518]LogFileManager: Error: Error deleting file 'C:/Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/Config/WindowsEditor/Engine.ini'.
+[2023.09.23-21.56.18:997][518]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.09.23-21.56.18:997][518]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/SlashOpenWorld' took 0.007
+[2023.09.23-22.06.19:159][319]LogFileManager: Warning: DeleteFile was unable to delete 'C:/Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/Config/WindowsEditor/Engine.ini', retrying in .5s...
+[2023.09.23-22.06.19:660][319]LogFileManager: Error: Error deleting file 'C:/Workspace/Github/UdemyUnrealCourse/UnrealUDemyCourse/UdemyUnreal/Saved/Config/WindowsEditor/Engine.ini'.
+[2023.09.23-22.06.19:666][319]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.09.23-22.06.19:667][319]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/SlashOpenWorld' took 0.006
+[2023.09.23-22.09.27:872][885]LogViewport: Scene viewport resized to 1078x597, mode Windowed.
